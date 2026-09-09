@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "source": "https://misheno.com/link-steward/",
   "purpose": "Keep previous documentation URLs available while Marketplace links are being updated.",
-  "change": "The Misheno footer link uses its full HTTPS address on the GitHub Pages copy.",
+  "change": "DataForSEO-informed SEO and copyediting from the Misheno source: unique metadata, descriptive headings, URL replacement examples, FAQ and JSON-LD. The Misheno footer link uses its full HTTPS address on this copy.",
   "published_sha256": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "404.html": "6a7a4a2fc50b6423fde9e5e2d6929ac948d065a5b80d0713b5444d74ba252088",
@@ -12,13 +12,13 @@
     "assets/link-repair-hero.webp": "ab925135f0a96be2d922edc77515082de40aa43f5fabc74ee12c18ee7a64dedc",
     "assets/review-with-confidence.webp": "79967da5bf01e378323e2f32bd7bb867d0b2e7601e587a4b95b0da1bf3334874",
     "assets/social-card.png": "254fa00ed16f2e47011278ec319a6318e2fa011ff1e109e3aa075c6064a8c4f5",
-    "dpa.html": "159a1cd3c61899a3692eabec334185e1719ebbe4a9eedb563519a8fcca795352",
+    "dpa.html": "a1eb974e26c6400aa9047661506141173c58ea2378e59cffdd1efae67c992cc8",
     "favicon.svg": "d0052386985413d8e0d9ed56c267a3034d49c75db4d56ec43aac8801b9685bd5",
-    "guide.html": "f6372ad04b6bc10abf4eb65d61a7a7dd444a2805229fe5028b734524d99d7e47",
-    "index.html": "d8127d7ef463b98d1424a14ec37f2b188102f749731c005dc50e9800a4ddaa12",
-    "privacy.html": "7d69d7fc8d143f5eef0c96b0ed628a7b793e9e6b5dbbb6f6c47eee372c15d9f1",
-    "security.html": "bb0ee49adad48021c307ec6a6e518089e331d485967b4eeb7511cee2f4d2ee3e",
-    "support.html": "8cebe7901f0a477292a931fc785db80f2e61f207d9d2febdfd9df105a25939fc",
-    "terms.html": "8c168f0e22d8b1ddbd7242f1eb3d303a286ef16128409bc34dd6e81ade3958ef"
+    "guide.html": "982ac5dd27407b8692b3a8697d80b25201366c3512d095b24086af6698a83013",
+    "index.html": "e2e7d9bb9a96d07b66f1bc3d72c469e1eba9a7d2b7cd1a3a5d0b2d9259664e7f",
+    "privacy.html": "df25431abafee9c4ab5bec00901613f8e1f52604d48cd42895791c3e50d4581b",
+    "security.html": "2073f8e7cac99a48aa06dc1c8c928743894fb8d97a9a15d0e69b9e5507cc2886",
+    "support.html": "fe134521953ecfd7e96f2a9155f742d18930338358c08521fcd84c09386bdde4",
+    "terms.html": "a1532accfa34486cb77b8f7f235f7ce7ea70112ba0c40ce3ab7ef9113d086afd"
   }
 }

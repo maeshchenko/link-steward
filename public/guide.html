@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="assets/app.css"><title>User guide · Link Steward for Confluence</title><meta name="description" content="Keep links useful and ownership clear. Documentation and support for Link Steward for Confluence.">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="assets/app.css"><title>Check &amp; Replace Confluence Links: Guide | Link Steward</title><meta name="description" content="Learn how to find broken links in Confluence Cloud, schedule space scans, review owner queues, and replace URLs across pages with a preview before saving.">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="canonical" href="https://misheno.com/link-steward/guide.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Link Steward for Confluence">
   <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="User guide · Link Steward for Confluence">
-  <meta property="og:description" content="Keep links useful and ownership clear. Documentation and support for Link Steward for Confluence.">
+  <meta property="og:title" content="Check &amp; Replace Confluence Links: Guide | Link Steward">
+  <meta property="og:description" content="Learn how to find broken links in Confluence Cloud, schedule space scans, review owner queues, and replace URLs across pages with a preview before saving.">
   <meta property="og:url" content="https://misheno.com/link-steward/guide.html">
   <meta property="og:image" content="https://misheno.com/link-steward/assets/social-card.png">
   <meta property="og:image:type" content="image/png">
@@ -14,34 +14,108 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Link Steward for Confluence: Keep your team&#x27;s knowledge connected. A hand reconnects blue links across a stack of documents.">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="User guide · Link Steward for Confluence">
-  <meta name="twitter:description" content="Keep links useful and ownership clear. Documentation and support for Link Steward for Confluence.">
+  <meta name="twitter:title" content="Check &amp; Replace Confluence Links: Guide | Link Steward">
+  <meta name="twitter:description" content="Learn how to find broken links in Confluence Cloud, schedule space scans, review owner queues, and replace URLs across pages with a preview before saving.">
   <meta name="twitter:image" content="https://misheno.com/link-steward/assets/social-card.png">
   <meta name="twitter:image:alt" content="Link Steward for Confluence: Keep your team&#x27;s knowledge connected. A hand reconnects blue links across a stack of documents.">
+  <meta name="robots" content="max-image-preview:large">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://misheno.com/link-steward/guide.html#webpage",
+      "url": "https://misheno.com/link-steward/guide.html",
+      "name": "Check & Replace Confluence Links: Guide | Link Steward",
+      "description": "Learn how to find broken links in Confluence Cloud, schedule space scans, review owner queues, and replace URLs across pages with a preview before saving.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://misheno.com/#website",
+        "url": "https://misheno.com/",
+        "name": "Misheno"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://misheno.com/link-steward/assets/social-card.png",
+        "width": 1200,
+        "height": 630
+      },
+      "breadcrumb": {
+        "@id": "https://misheno.com/link-steward/guide.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://misheno.com/link-steward/guide.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Link Steward",
+          "item": "https://misheno.com/link-steward/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "User guide",
+          "item": "https://misheno.com/link-steward/guide.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
 </head>
 <body><a class="skip" href="#content">Skip to content</a><header class="site-header">
-    <a class="brand" href="index.html"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M13 19l6-6m-8 3-2 2a5 5 0 007 7l4-4a5 5 0 000-7m1 2 2-2a5 5 0 00-7-7l-4 4a5 5 0 000 7"/></svg><span>Link Steward<small>for Confluence</small></span></a>
-    <nav aria-label="Main"><a class="nav-overview" href="index.html#how-it-works">How it works</a><a href="guide.html">Guide</a><a href="support.html">Support</a><a href="security.html">Security</a></nav>
+    <a class="brand" href="./"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M13 19l6-6m-8 3-2 2a5 5 0 007 7l4-4a5 5 0 000-7m1 2 2-2a5 5 0 00-7-7l-4 4a5 5 0 000 7"/></svg><span>Link Steward<small>for Confluence</small></span></a>
+    <nav aria-label="Main"><a class="nav-overview" href="./#how-it-works">How it works</a><a href="guide.html">Guide</a><a href="support.html">Support</a><a href="security.html">Security</a></nav>
     <a class="button header-cta" href="guide.html#set-up-a-space">Get started</a>
   </header>
 <main id="content"><div class="document"><nav class="doc-nav" aria-label="Documentation"><a href="guide.html" aria-current="page">User guide</a><a href="support.html">Support</a><a href="security.html">Security</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms of service</a><a href="dpa.html">Data processing</a></nav>
-<article class="prose"><p class="doc-date">Link Steward for Confluence / Release 1.0</p>
-<h1>Link Steward guide</h1><h2 id="set-up-a-space">Set up a space</h2><p>Install Link Steward from Atlassian Marketplace, then open <strong>Apps → Link Steward for Confluence</strong>. Choose a space. A Confluence space administrator can configure and scan it.</p>
+<article class="prose">
+<nav class="doc-date" aria-label="Breadcrumb"><a href="./">Link Steward</a> / <span>User guide</span></nav>
+<p class="doc-date">Link Steward for Confluence / Release 1.0</p>
+<h1>Check and replace links in Confluence Cloud</h1>
+<p>Use Link Steward to find broken links in a Confluence page or space, review issues with page owners, and replace URLs after checking a preview. This guide covers setup, scheduled scans, and the limits of each check.</p>
+<nav aria-label="On this page"><ul>
+<li><a href="#set-up-a-space">Set up a space and run a scan</a></li>
+<li><a href="#review-the-queue">Review link results and owner queues</a></li>
+<li><a href="#replace-links">Replace URLs across pages</a></li>
+<li><a href="#exact-and-base-url-examples">Compare exact and base URL replacements</a></li>
+<li><a href="#exceptions-and-reminders">Configure exceptions and reminders</a></li>
+<li><a href="#limits-and-recovery">Check supported links, limits, and recovery</a></li>
+<li><a href="#delete-data-and-uninstall">Delete data and uninstall</a></li>
+</ul></nav>
+<h2 id="set-up-a-space">Set up a space and run a link scan</h2>
+<p>Marketplace review is in progress, so public installation is not yet available. Once the app is available and installed, open <strong>Apps → Link Steward for Confluence</strong>. Choose a space. A Confluence space administrator can configure and scan it.</p>
 <p>In <strong>Settings</strong>, enter exact external hostnames, one per line, such as <code>docs.example.com</code>. Include redirect destinations if those are also trusted. Internal Confluence page links are checked without an external-domain rule. External checking is disabled until a domain is enabled.</p>
 <p>Choose <strong>Off</strong>, <strong>Daily</strong> or <strong>Weekly</strong> automatic checks, then save. Scheduled checks start within approximately an hour after becoming due, subject to Forge availability and quotas. A manual scan can be started immediately. Only one space scan runs at a time. Use <strong>Stop scan</strong> to stop a stalled or unwanted run and start a fresh one.</p>
-<h2 id="review-the-queue">Review the queue</h2><p><strong>My queue</strong> follows the current Confluence page owner. <strong>All links</strong> includes only pages you can currently read. Use search, owner, work-state and link-result filters. A transfer of page ownership transfers the queue on refresh. If an owner profile is unavailable, an administrator can still manage accessible issues and transfer ownership in Confluence.</p>
+<h3 id="find-broken-links">Find broken links in a space or page</h3>
+<ol><li>Choose the space you want to check and enable the external hostnames in Settings.</li><li>Select <strong>Scan space</strong> and wait for results. For a single page, open <strong>More actions → Apps → Link Steward for Confluence</strong> and select <strong>Check this page</strong>.</li><li>Filter by <strong>Broken</strong> to review confirmed external 404 or 410 responses. Review <strong>Needs review</strong> separately for access restrictions or inconclusive checks.</li><li>Use the current page owner's queue to track the issue, then recheck the page after a fix.</li></ol>
+<h2 id="review-the-queue">Review link results and owner queues</h2><p><strong>My queue</strong> follows the current Confluence page owner. <strong>All links</strong> includes only pages you can currently read. Use search, owner, work-state and link-result filters. A transfer of page ownership transfers the queue on refresh. If an owner profile is unavailable, an administrator can still manage accessible issues and transfer ownership in Confluence.</p>
 <div class="table-wrap"><table><thead><tr><th>Link result</th><th>Meaning</th></tr></thead><tbody><tr><td>Available</td><td>An enabled external destination returned a successful response, or the Confluence target is accessible.</td></tr><tr><td>Broken</td><td>The public external destination returned HTTP 404 or 410.</td></tr><tr><td>Needs review</td><td>Permissions, authentication, throttling, network trouble, configuration or unsupported content prevent a conclusion.</td></tr><tr><td>Excluded</td><td>A space rule prevents this destination from being checked.</td></tr><tr><td>Link removed</td><td>A later check confirmed that the URL no longer appears on the source page.</td></tr></tbody></table>
 </div><p><strong>Mark in progress</strong> records work. <strong>Ignore</strong> leaves an exception outside the default queue. <strong>Reopen</strong> restores it. <strong>Recheck</strong> queues the page for another check. Success or confirmed removal resolves an earlier issue; a later failure opens it again. A link that has always been available has <strong>No issue</strong> and does not inflate the count of fixes.</p>
 <p>Select up to 50 rows for work-state changes or page rechecks. Use <strong>Owners</strong> to review progress and recent scans. <strong>Export CSV</strong> downloads the currently filtered, loaded results. Share exports only with people entitled to the page titles, URLs and owner names they contain.</p>
 <p>From a page, open <strong>More actions → Apps → Link Steward for Confluence</strong> to review only that page and use <strong>Check this page</strong>. <strong>Show whole space</strong> returns to the space report.</p>
-<h2 id="replace-links">Replace links</h2><p>Select results on the pages to edit, choose <strong>Replace links</strong>, and enter the old and new destinations. An exact replacement matches the complete URL. A base replacement matches the origin and path boundary and preserves each matching link's query and fragment. It does not rewrite visible link labels.</p>
+<h2 id="replace-links">Find and replace URLs across Confluence pages</h2><p>Select results on the pages to edit, choose <strong>Replace links</strong>, and enter the old and new destinations. An exact replacement matches the complete URL. A base replacement matches the origin and path boundary and preserves the remaining path, query, and fragment of each matching link. It does not rewrite visible link labels.</p>
 <p>Choose <strong>Preview changes</strong>. Review the old/new destinations and selected pages, then save. Up to 20 pages can be included. Keep the view open until every page has a result; each successful save creates a Confluence version. A failed page does not undo already saved pages. If the page or its unpublished draft changes, create a new preview. Use Confluence version history to restore a previous page version when necessary.</p>
+<h3 id="exact-and-base-url-examples">Exact and base URL replacement examples</h3>
+<p>Use <strong>exact</strong> mode when one destination has changed. Use <strong>base</strong> mode when a documentation site moves to a new domain or path and the remaining URL structure stays the same.</p>
+<div class="table-wrap"><table><thead><tr><th>Mode</th><th>Replacement rule</th><th>Result</th></tr></thead><tbody>
+<tr><td>Exact URL</td><td>Replace <code>https://docs.example.com/old-guide</code> with <code>https://docs.example.com/new-guide</code>.</td><td>Only links matching the complete old URL are replaced.</td></tr>
+<tr><td>Base URL</td><td>Replace <code>https://old.example.com/docs</code> with <code>https://new.example.com/help</code>.</td><td><code>https://old.example.com/docs/setup?lang=en#install</code> becomes <code>https://new.example.com/help/setup?lang=en#install</code>.</td></tr>
+</tbody></table></div>
+<p>Base mode matches a path boundary: <code>/docs</code> matches <code>/docs/setup</code>, but not <code>/docs-old</code>. Enter base URLs without a query or fragment and use an HTTPS destination. Link Steward replaces link destinations, including supported Smart Links; it does not find and replace ordinary page text or visible link labels.</p>
+<p>A domain change does not guarantee that every old path exists on the new site. Review each preview and recheck the pages after saving. If a replacement fails, see <a href="support.html#replacement-troubleshooting">replacement troubleshooting</a>.</p>
 <h2 id="exceptions-and-reminders">Exceptions and reminders</h2><p>Domain exclusions skip all matching destinations. Select rows and choose <strong>Exclude URLs</strong> for exact URL exclusions across a space. Remove a rule in Settings and recheck the affected pages to update results.</p>
 <p>Owner reminders are off by default. Enabling them lets Link Steward add a native page comment mentioning the current owner when that page has open, confirmed broken links. Ignored, in-progress and uncertain results do not trigger reminders. Repeated checks do not repeat the comment within seven days. Confluence may notify watchers according to their preferences; email delivery is not guaranteed.</p>
-<h2 id="limits-and-recovery">Limits and recovery</h2><p>A space scan checks at most 1,000 published pages and 10,000 links, with at most 100 unique links per page. A limit or unreadable ADF produces an incomplete result. Archived, deleted and inaccessible source pages are not exposed in your report. Plain text URLs and third-party macro internals are not scanned. URL fragments and content meaning require manual review.</p>
+<h2 id="limits-and-recovery">Supported links, scan limits, and recovery</h2>
+<p>Link Steward reads standard hyperlinks and inline, card, and embed Smart Link destinations in published Confluence pages. It checks supported internal page targets without an external-domain rule. External destinations must use public HTTPS hostnames enabled by a space administrator.</p><p>A space scan checks at most 1,000 published pages and 10,000 links, with at most 100 unique links per page. A limit or unreadable ADF produces an incomplete result. Archived, deleted and inaccessible source pages are not exposed in your report. Plain text URLs and third-party macro internals are not scanned. URL fragments and content meaning require manual review.</p>
 <p>Results and work states expire after 30 days. A removed-link result is retained for up to 30 days within a bounded page record; up to 200 current and removed results fit in one page record. Refresh after an action to see asynchronous results. Retry a failed scan when the service is available again.</p>
 <h2 id="delete-data-and-uninstall">Delete data and uninstall</h2><p>Turn off schedules and reminders in Settings. A space administrator can choose <strong>Delete app data for this space</strong> and confirm. This clears configuration, results and work states for that space. Existing Confluence page versions and reminder comments remain Confluence content; app data deletion does not erase them. Site administrators can uninstall Link Steward in Connected apps. Atlassian's platform retention policies apply after uninstallation.</p>
 </article>
 </div></main>
-<footer><div class="footer-top"><a class="footer-brand" href="index.html">Link Steward <span>for Confluence</span></a><nav aria-label="Resources"><a href="guide.html">User guide</a><a href="support.html">Support</a><a href="security.html">Security</a></nav></div><div class="footer-bottom"><span>© 2026 Mikhail Eshchenko</span><nav aria-label="Legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="dpa.html">Data processing</a></nav></div><p>A product by <a href="https://misheno.com/">Misheno</a>. Independent software for Confluence Cloud. Confluence is a trademark of Atlassian.</p></footer>
+<footer><div class="footer-top"><a class="footer-brand" href="./">Link Steward <span>for Confluence</span></a><nav aria-label="Resources"><a href="guide.html">User guide</a><a href="support.html">Support</a><a href="security.html">Security</a></nav></div><div class="footer-bottom"><span>© 2026 Mikhail Eshchenko</span><nav aria-label="Legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="dpa.html">Data processing</a></nav></div><p>A product by <a href="https://misheno.com/">Misheno</a>. Independent software for Confluence Cloud. Confluence is a trademark of Atlassian.</p></footer>
 </body></html>
